@@ -41,7 +41,7 @@ with col_2:
 st.write("## Ejemplos de Gráficos :star-struck: ")
 
 if not btn_ver:
-  st.warning("Presiona el botón **Ver gráficos** de la barra lateral")
+  st.warning("Presiona el botón ***Ver gráficos*** de la barra lateral")
 else:
   # Obtener el total de puntos por comuna
   puntos_comuna = bip.groupby(by=["MAIPU"]).size()
